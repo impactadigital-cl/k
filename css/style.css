@@ -184,11 +184,11 @@ button{cursor:pointer}
 
 @media(max-width:900px){
   .nav{padding:18px 20px;position:relative;z-index:60}
-  .menu-toggle{display:block;position:relative;z-index:60}
+  .menu-toggle{display:block;position:relative;z-index:60;color:var(--ink)}
   .logo{position:relative;z-index:60}
-  .nav-links{position:fixed;inset:0;z-index:45;background:var(--ink);color:var(--white);display:flex;flex-direction:column;justify-content:center;gap:24px;padding:80px 24px;transform:translateY(-100%);transition:.45s}
+  .nav-links{position:fixed;inset:0;z-index:45;background:#fff;color:var(--ink);display:flex;flex-direction:column;justify-content:center;gap:24px;padding:80px 24px;transform:translateY(-100%);transition:.45s}
   .nav-links.open{transform:none}
-  .nav-links a{font-size:16px}
+  .nav-links a{font-size:19px;color:var(--ink)}
   .hero{grid-template-columns:1fr}
   .hero-copy{min-height:70vh;padding:120px 24px 55px}
   .hero-visual{min-height:55vh}
