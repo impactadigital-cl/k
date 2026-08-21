@@ -1,8 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/impac3882/karinna.impactadigital.cl
-    - /bin/mkdir -p $DEPLOYPATH
-    - /bin/cp -r index.html portfolio.html shop.html consultoria.html $DEPLOYPATH/
-    - /bin/cp -r css js assets $DEPLOYPATH/
-    - /bin/echo "deploy OK $(date)" >> /home/impac3882/deploy.log
