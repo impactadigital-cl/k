@@ -72,6 +72,8 @@ button{cursor:pointer}
 .about-grid{max-width:var(--max);margin:auto;display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}
 .about-copy p{font-size:20px;line-height:1.55;margin:0 0 24px}
 .about-note{border-top:1px solid var(--line);padding-top:18px;font:11px var(--mono);letter-spacing:.05em;text-transform:uppercase}
+.about-note.studies{border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:4pt;padding:16px 18px;margin-top:8px;font:12px var(--mono);letter-spacing:.05em;text-transform:uppercase;line-height:2;color:var(--ink-soft)}
+.about-note.studies .studies-label{display:block;font:10px var(--mono);letter-spacing:.2em;color:var(--muted);margin-bottom:8px}
 .skills-wrap .about-note{border:2pt solid rgba(255,255,255,.4);border-radius:0;padding:18px;margin-top:18px}
 .tools-bar{border-top:1px solid rgba(255,255,255,.2);border-bottom:1px solid rgba(255,255,255,.2);overflow:hidden;margin-top:60px;padding:26px 0}
 .tools-track{display:flex;gap:46px;width:max-content;animation:tools-scroll 34s linear infinite}
