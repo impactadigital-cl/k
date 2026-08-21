@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/USUARIO/public_html/karinna
+    - export DEPLOYPATH=/home/impac3882/public_html/karinna
     - /bin/cp -r index.html $DEPLOYPATH/
     - /bin/cp -r portfolio.html shop.html consultoria.html $DEPLOYPATH/
     - /bin/cp -r css $DEPLOYPATH/
