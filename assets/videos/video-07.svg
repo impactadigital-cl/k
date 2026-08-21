@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125">
+    <rect width="900" height="1125" fill="#d9d0c2"/>
+    <rect x="34" y="34" width="832" height="1057" rx="2" fill="#252525"/>
+    <circle cx="450" cy="520" r="58" fill="none" stroke="#e9e1d5" stroke-width="2"/>
+    <polygon points="432,486 432,554 488,520" fill="#e9e1d5"/>
+    <text x="450" y="175" fill="#e9e1d5" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" letter-spacing="6">UGC</text>
+    <text x="450" y="970" fill="#e9e1d5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" letter-spacing="4">CONTENIDO UGC</text>
+    <text x="450" y="1020" fill="#a99f91" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" letter-spacing="5">REEMPLAZAR POR VIDEO · 01</text>
+    </svg>
