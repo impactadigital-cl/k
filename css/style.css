@@ -119,8 +119,8 @@ button{cursor:pointer}
 .marquee span{font:12px var(--mono);letter-spacing:.12em;text-transform:uppercase}
 @keyframes marquee{to{transform:translateX(-50%)}}
 
-.brands{max-width:var(--max);margin:auto;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
-.brand{min-height:120px;display:grid;place-items:center;padding:20px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center;font:11px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.brands{max-width:var(--max);margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.brand{display:flex;align-items:center;justify-content:center;text-align:center;min-height:96px;padding:18px 14px;border:1px solid var(--line);border-radius:4pt;opacity:.7;font-family:'Sora',sans-serif;font-weight:600;font-size:8px;letter-spacing:.05em;text-transform:uppercase;line-height:1.25}
 .brand span{font-size:9px;color:var(--muted);display:block;margin-top:6px}
 
 .portfolio-grid{max-width:var(--max);margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
