@@ -48,7 +48,14 @@ document.addEventListener('DOMContentLoaded',()=>{
         else{vid.pause();dot.textContent='▶';}
       });
     }
-  });
+
+    // Mobile: tap toggles overlay off and plays the video
+    card.addEventListener('click',()=>{
+      if(window.innerWidth>=900) return;
+      card.classList.toggle('touched');
+      if(card.classList.contains('touched') && vid){vid.muted=false;vid.play().catch(()=>{});}
+      else if(vid){vid.pause();}
+    });
 
   // Contact forms: send to Formspree.
   document.querySelectorAll('[data-contact-form]').forEach(form=>{
