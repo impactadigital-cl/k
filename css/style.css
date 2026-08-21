@@ -177,7 +177,7 @@ button{cursor:pointer}
 .footer-links{display:flex;flex-direction:column;gap:10px;font:10px var(--mono);text-transform:uppercase;letter-spacing:.1em}
 .footer-bottom{max-width:var(--max);margin:55px auto 0;padding-top:16px;border-top:1px solid rgba(255,255,255,.2);display:flex;justify-content:space-between;font:9px var(--mono);color:#88837b;text-transform:uppercase;letter-spacing:.08em}
 
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
+.reveal{opacity:1;transform:translateY(20px);transition:opacity .8s ease,transform .8s ease}
 .reveal.visible{opacity:1;transform:none}
 .page-top{display:flex;justify-content:space-between;align-items:center;max-width:var(--max);margin:auto;font:10px var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
 .cursor-line{display:inline-block;width:50px;height:1px;background:currentColor;vertical-align:middle;margin-right:10px}
